@@ -7,6 +7,11 @@ txid, refid, time, typ, aclass, asset, amount, fee, balance
 
 For given assets (XETH, ZUSD and ZEUR), we sum all the "margin" column.
 Then we substract the trading and rollover fees.
+
+To get the export go to:
+
+    History > Export > Select "ledgers" in "Export Data" >
+    Select a date > in "Fields" tick "Select All" > Submit
 """
 from __future__ import print_function
 import csv
